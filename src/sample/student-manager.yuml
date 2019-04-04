@@ -1,0 +1,7 @@
+[Student]-(View Details), (View Details)>(Login), (Login)<Invalid Credentials)
+[Student]-(View Grades), (View Grades)>(Login)
+[Teacher]-(View All Students), (View All Students)>(Login)
+[Teacher]-(Add Student), (Add Student)<(Student Already Enroled), (Add Student)>(Login)
+[Teacher]-(Add Grades), (Add Grades)>(Login)
+[Admin]-(Create Account), (Create Account)<(Account Already Exists)
+[Admin]-(Add Subject)
